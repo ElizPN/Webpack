@@ -2,14 +2,13 @@ import path from "path";
 
 export default {
   mode: "development",
+  context: path.resolve("src"),
   entry: {
-    testOne: ["./src/test1.js", "./src/test2.js"],
-    testTwo: "./src/test3.js",
+    test1: ["./test1.js", "./test2.js"],
+    test2: "./test3.js",
   },
   output: {
-    filename: "[name].bund.[contenthash].js",
+    filename: "[name].[contenthash].js",
+    path: path.resolve("dist"),
   },
 };
-
-let test = path.resolve("dist", "assets");
-console.log(test);
