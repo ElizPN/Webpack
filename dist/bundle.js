@@ -10,16 +10,6 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test1_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test1.js */ \"./src/test1.js\");\n/* harmony import */ var _test2_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./test2.js */ \"./src/test2.js\");\n\n\n\nalert(\"it works\");\n\n\n//# sourceURL=webpack:///./src/index.js?");
-
-/***/ }),
-
 /***/ "./src/test1.js":
 /*!**********************!*\
   !*** ./src/test1.js ***!
@@ -37,6 +27,16 @@ eval("__webpack_require__.r(__webpack_exports__);\nalert(\"This is first test\")
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test4_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test4.js */ \"./src/test4.js\");\n\nalert(2);\n\n\n//# sourceURL=webpack:///./src/test2.js?");
+
+/***/ }),
+
+/***/ "./src/test3.js":
+/*!**********************!*\
+  !*** ./src/test3.js ***!
+  \**********************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\nalert(\"test 3\");\n\n\n//# sourceURL=webpack:///./src/test3.js?");
 
 /***/ }),
 
@@ -93,7 +93,9 @@ eval("__webpack_require__.r(__webpack_exports__);\nalert(\"A lot of snoooow\");\
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
+/******/ 	__webpack_require__("./src/test1.js");
+/******/ 	__webpack_require__("./src/test2.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/test3.js");
 /******/ 	
 /******/ })()
 ;
