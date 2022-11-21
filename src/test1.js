@@ -1,1 +1,1 @@
-alert(1);
+alert("This is first test");
