@@ -2,7 +2,10 @@ import path from "path";
 
 export default {
   mode: "development",
-  entry: { file1: "./src/test1.js", file2: "./src/test2.js" },
+  entry: {
+    bund1: ["./src/test1.js", "./src/test2.js"],
+    bund2: "./src/test3.js",
+  },
   output: {
     filename: "bundle.[contenthash].js",
   },
