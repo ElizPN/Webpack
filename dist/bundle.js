@@ -36,17 +36,17 @@ eval("__webpack_require__.r(__webpack_exports__);\nalert(\"This is first test\")
   \**********************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test3_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test3.js */ \"./src/test3.js\");\n\nalert(2);\n\n\n//# sourceURL=webpack:///./src/test2.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test4_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test4.js */ \"./src/test4.js\");\n\nalert(2);\n\n\n//# sourceURL=webpack:///./src/test2.js?");
 
 /***/ }),
 
-/***/ "./src/test3.js":
+/***/ "./src/test4.js":
 /*!**********************!*\
-  !*** ./src/test3.js ***!
+  !*** ./src/test4.js ***!
   \**********************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\nalert(\"test 3\");\n\n\n//# sourceURL=webpack:///./src/test3.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nalert(\"A lot of snoooow\");\n\n\n//# sourceURL=webpack:///./src/test4.js?");
 
 /***/ })
 

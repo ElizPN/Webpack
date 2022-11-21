@@ -1,2 +1,2 @@
-import "./test3.js";
+import "./test4.js";
 alert(2);
