@@ -13,7 +13,5 @@ export default {
     filename: "[name].[contenthash].js",
     path: path.resolve("dist"), // necessary for clean-webpack-plugin
   },
-  plugins: [new HtmlWebpackPlugin()],
+  plugins: [new HtmlWebpackPlugin(), new CleanWebpackPlugin()],
 };
-
-// [new CleanWebpackPlugin()],
