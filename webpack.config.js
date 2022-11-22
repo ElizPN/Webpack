@@ -1,4 +1,5 @@
 import path from "path";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 import { CleanWebpackPlugin } from "clean-webpack-plugin";
 
 export default {
@@ -12,5 +13,7 @@ export default {
     filename: "[name].[contenthash].js",
     path: path.resolve("dist"), // necessary for clean-webpack-plugin
   },
-  plugins: [new CleanWebpackPlugin()],
+  plugins: [new HtmlWebpackPlugin()],
 };
+
+// [new CleanWebpackPlugin()],
